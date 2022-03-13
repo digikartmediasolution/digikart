@@ -183,7 +183,7 @@ body {
 
 
 .section-heading h6 {
-  font-size: 15px;
+  font-size: 24px;
   font-weight: 700;
   color: #fe664e;
   text-transform: uppercase;
@@ -2099,4 +2099,8 @@ responsive
   form#contact {
     padding: 30px;
   }
+}
+
+.text-justify{
+  text-align: justify;
 }
