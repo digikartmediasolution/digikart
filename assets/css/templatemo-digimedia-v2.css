@@ -2104,3 +2104,11 @@ responsive
 .text-justify{
   text-align: justify;
 }
+
+.font-size-400{
+  font-weight: 400;
+}
+
+div.a {
+  word-wrap: normal;
+}
