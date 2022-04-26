@@ -6,7 +6,7 @@ async function handleSubmit(event) {
   var status = document.getElementById("status");
   var data = new FormData(event.target);
 
-  fetch("https://api.apispreadsheets.com/data/14316/", {
+  fetch("https://api.apispreadsheets.com/data//", {
     method: "POST",
     body: data,
   }).then((res) => {
