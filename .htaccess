@@ -1,8 +1,8 @@
 #Removes file extentions from URL
 RewriteEngine On
 RewriteCond %{https://digikart.in/index.html} !-f
-RewriteCond %{https://digikart.inhttp://digikart.in/about} !-f
-RewriteCond %{https://digikart.inhttp://digikart.in/social-media-marketing} !-f
+RewriteCond %{https://digikart.inhttp://digikart.in/about.html} !-f
+RewriteCond %{https://digikart.inhttp://digikart.in/social-media-marketing.html} !-f
 RewriteCond %{https://digikart.in/seo.html} !-f
 RewriteCond %{https://digikart.in/content-marketing.html} !-f
 RewriteCond %{https://digikart.in/ppc.html} !-f
